@@ -1,0 +1,19 @@
+{
+   "issuer":"https://github.com/nrdio/authn",
+   "jwks_uri":"https://nrdio.auth0.com/.well-known/jwks.json",
+   "scopes_supported":[
+      "openid",
+      "profile",
+      "name"
+   ],
+   "id_token_signing_alg_values_supported":[
+      "RS256"
+   ],
+   "claims_supported":[
+      "aud",
+      "exp",
+      "iat",
+      "iss",
+      "sub"
+   ]
+}
