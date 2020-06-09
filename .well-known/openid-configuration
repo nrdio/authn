@@ -1,6 +1,6 @@
 {
-   "issuer":"https://github.com/nrdio/authn",
-   "jwks_uri":"https://nrdio.auth0.com/.well-known/jwks.json",
+   "issuer":"https://raw.githubusercontent.com/nrdio/authn/master/",
+   "jwks_uri":"https://raw.githubusercontent.com/nrdio/authn/master/jwks.json",
    "scopes_supported":[
       "openid",
       "profile",
