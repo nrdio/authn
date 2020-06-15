@@ -12,10 +12,10 @@ const {
 } = jose;
 
 
-// import private key
-const key = asKey(fs.readFileSync('keys/private.pem'));
+// import public key
+const key = asKey(fs.readFileSync('keys/public.pem'));
 
-// cerate a keystore with RSA private key
+// cerate a keystore with RSA public key
 const keystore = new KeyStore(key);
 
 console.log(JSON.stringify(keystore.toJWKS()));
