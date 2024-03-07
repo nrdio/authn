@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nrdio/authn#readme",
   "dependencies": {
-    "jose": "^1.27.1"
+    "jose": "^2.0.7"
   }
 }
